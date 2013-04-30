@@ -1,13 +1,13 @@
 <?php
 /*
 Plugin Name: WP Video Lightbox
-Version: 1.3
+Version: 1.4
 Plugin URI: http://www.tipsandtricks-hq.com/?p=2700
 Author: Ruhul Amin
 Author URI: http://www.tipsandtricks-hq.com/
 Description: Simple video lightbox plugin to display videos in a nice overlay popup. It also supports images, flash, YouTube, iFrame.
 */
-define('WP_LICENSE_MANAGER_VERSION', "1.3");
+define('WP_LICENSE_MANAGER_VERSION', "1.4");
 define('WP_VID_LIGHTBOX_URL', plugins_url('',__FILE__));
 
 add_shortcode('video_lightbox_vimeo5', 'wp_vid_lightbox_vimeo5_handler');
@@ -54,8 +54,8 @@ function wp_vid_lightbox_youtube_handler($atts)
     }
     else{
     	$anchor_replacement = $anchor;
-    } 
-    $href_content = 'http://www.youtube.com/watch?v='.$video_id.'?width='.$width.'&amp;height='.$height;
+    }
+    $href_content = 'http://www.youtube.com/watch?v='.$video_id.'&amp;width='.$width.'&amp;height='.$height;
 	$output = '<a rel="wp-video-lightbox" href="'.$href_content.'" title="">'.$anchor_replacement.'</a>';
 	return $output;
 }
@@ -158,7 +158,7 @@ function wp_vid_lightbox_style()
     $vid_lightbox_iframe_markup	  = '<iframe src ="{path}" width="{width}" height="{height}" frameborder="no"></iframe>';
     $vid_lightbox_inline_markup	  = '<div class="pp_inline">{content}</div>';
     $output = <<<EOHTML
-      <script type="text/javascript" charset="utf-8">
+      <script type="text/javascript">
         /* <![CDATA[ */
         jQuery(document).ready(function($) {
           $("a[rel^='{$vid_lightbox_rel}']").prettyPhoto({

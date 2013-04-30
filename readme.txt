@@ -1,10 +1,10 @@
 === WP Video Lightbox ===
 Contributors: Tips and Tricks HQ
 Donate link: http://www.tipsandtricks-hq.com/
-Tags: wordpress lightbox, wordpress video lightbox, video lightbox, wp video lightbox
+Tags: wordpress lightbox, wordpress video lightbox, video lightbox, wp video lightbox, wordpress video embed, add video to wordpress
 Requires at least: 3.0
-Tested up to: 3.4
-Stable tag: 1.3
+Tested up to: 3.6
+Stable tag: 1.4
 License: GPLv2 or later
 
 Very easy to use WordPress lightbox plugin to display YouTube and Vimeo videos in an elegant lightbox overlay.
@@ -26,9 +26,9 @@ Instructions for using the shortcodes are available at the following URL:
 Upload the plugin to the plugins directory via WordPress Plugin Uploader (Plugins->Add New->Upload->Choose File->Install Now) and Activate it.
 
 == Changelog ==
+1.4 - added a feature in the shortcode to turn off the related video display after the playback
 
-= 1.3 =
-* First commit
+1.3 - First commit to the wordpress repository
 
 == Frequently Asked Questions ==
 
