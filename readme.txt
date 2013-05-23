@@ -1,17 +1,19 @@
 === WP Video Lightbox ===
-Contributors: Tips and Tricks HQ
+Contributors: Tips and Tricks HQ, Ruhul Amin
 Donate link: http://www.tipsandtricks-hq.com/
-Tags: wordpress lightbox, wordpress video lightbox, video lightbox, wp video lightbox, wordpress video embed, add video to wordpress
+Tags: wordpress lightbox, wordpress video lightbox, video lightbox, wp video lightbox, wordpress video embed, add video to wordpress, gallery, image, images, lightbox, lightview, overlay, photo, photos, picture, video 
 Requires at least: 3.0
 Tested up to: 3.6
-Stable tag: 1.4
+Stable tag: 1.5
 License: GPLv2 or later
 
 Very easy to use WordPress lightbox plugin to display YouTube and Vimeo videos in an elegant lightbox overlay.
 
 == Description ==
 
-The WordPress Video Lightbox plugin allows you to embed videos on a page using lightbox overlay display. This plugin can be used to display images, flash, YouTube, Vimeo, iFrame etc in a lightbox overlay. The embedded videos can be viewed on iPhone and iPad too.
+The WordPress Video Lightbox plugin allows you to embed videos on a page using lightbox overlay display. 
+
+This plugin can be used to display images, flash, YouTube, Vimeo, iFrame etc in a lightbox overlay. The embedded videos can be viewed on iPhone and iPad too.
 
 For video tutorial, screenshots, detailed documentation, support and updates, please visit: [WP Video Lightbox plugin page](http://www.tipsandtricks-hq.com/?p=2700)
 
@@ -25,11 +27,6 @@ Instructions for using the shortcodes are available at the following URL:
 
 Upload the plugin to the plugins directory via WordPress Plugin Uploader (Plugins->Add New->Upload->Choose File->Install Now) and Activate it.
 
-== Changelog ==
-1.4 - added a feature in the shortcode to turn off the related video display after the playback
-
-1.3 - First commit to the wordpress repository
-
 == Frequently Asked Questions ==
 
 = Can this plugin be used to embed a YouTube video? =
@@ -38,10 +35,20 @@ Yes
 = Can this plugin be used to embed a Vimeo video? =
 Yes
 
+= Can this plugin be used to do lightbox on images? =
+Yes
+
 == Screenshots ==
 
-None
+Please see this page for screenshots:
+http://www.tipsandtricks-hq.com/?p=2700
 
 == Upgrade Notice ==
 
+None
 
+== Changelog ==
+
+1.5 - Made some improvements as to how the JavaScript code is loaded in the plugin. WordPress 3.6 compatibility.
+1.4 - added a feature in the shortcode to turn off the related video display after the playback
+1.3 - First commit to the wordpress repository
