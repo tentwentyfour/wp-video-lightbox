@@ -4,7 +4,7 @@ Donate link: http://www.tipsandtricks-hq.com/
 Tags: wordpress lightbox, wordpress video lightbox, video lightbox, wp video lightbox, wordpress video embed, add video to wordpress, gallery, image, images, lightbox, lightview, overlay, photo, photos, picture, video 
 Requires at least: 3.0
 Tested up to: 3.6
-Stable tag: 1.5
+Stable tag: 1.6
 License: GPLv2 or later
 
 Very easy to use WordPress lightbox plugin to display YouTube and Vimeo videos in an elegant lightbox overlay.
@@ -38,6 +38,9 @@ Yes
 = Can this plugin be used to do lightbox on images? =
 Yes
 
+= Can this plugin automatically create a thumbnail/anchor image from the YouTube video?
+Yes
+
 == Screenshots ==
 
 Please see this page for screenshots:
@@ -48,7 +51,7 @@ http://www.tipsandtricks-hq.com/?p=2700
 None
 
 == Changelog ==
-
+1.6 - Added an option to automatically create and use the thumbnail of the YouTube or Vimeo video as the anchor image.
 1.5 - Made some improvements as to how the JavaScript code is loaded in the plugin. WordPress 3.6 compatibility.
 1.4 - added a feature in the shortcode to turn off the related video display after the playback
 1.3 - First commit to the wordpress repository

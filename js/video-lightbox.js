@@ -1,4 +1,5 @@
 jQuery(document).ready(function($) {
+	//WP Video Lightbox Pluign - http://www.tipsandtricks-hq.com/?p=2700
   $("a[rel^='wp-video-lightbox']").prettyPhoto({
     animation_speed: 'fast',
     slideshow: 5000,
