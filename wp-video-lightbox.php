@@ -1,13 +1,13 @@
 <?php
 /*
 Plugin Name: WP Video Lightbox
-Version: 1.6
+Version: 1.6.1
 Plugin URI: http://www.tipsandtricks-hq.com/?p=2700
 Author: Tips and Tricks HQ, Ruhul Amin
 Author URI: http://www.tipsandtricks-hq.com/
 Description: Simple video lightbox plugin to display videos in a nice overlay popup. It also supports images, flash, YouTube, iFrame.
 */
-define('WP_LICENSE_MANAGER_VERSION', "1.6");
+define('WP_LICENSE_MANAGER_VERSION', "1.6.1");
 define('WP_VID_LIGHTBOX_URL', plugins_url('',__FILE__));
 
 add_shortcode('video_lightbox_vimeo5', 'wp_vid_lightbox_vimeo5_handler');
@@ -73,7 +73,7 @@ function wp_vid_lightbox_youtube_handler($atts)
     else{
     	$anchor_replacement = $anchor;
     }
-    $href_content = 'http://www.youtube.com/watch?v='.$video_id.'&amp;width='.$width.'&amp;height='.$height;
+    $href_content = 'https://www.youtube.com/watch?v='.$video_id.'&amp;width='.$width.'&amp;height='.$height;
     $output = '<a rel="wp-video-lightbox" href="'.$href_content.'" title="">'.$anchor_replacement.'</a>';
     return $output;
 }
@@ -88,7 +88,7 @@ function wp_vid_lightbox_get_auto_thumb($atts)
     if($atts['vid_type']=="youtube")
     {
         $anchor_replacement = '<div class="wpvl_auto_thumb_box_wrapper"><div class="wpvl_auto_thumb_box">';
-        $anchor_replacement .= '<img src="http://img.youtube.com/vi/'.$video_id.'/0.jpg" class="video_lightbox_auto_anchor_image" alt="" />';
+        $anchor_replacement .= '<img src="https://img.youtube.com/vi/'.$video_id.'/0.jpg" class="video_lightbox_auto_anchor_image" alt="" />';
         $anchor_replacement .= '<div class="wpvl_auto_thumb_play"><img src="'.WP_VID_LIGHTBOX_URL.'/images/play.png" class="wpvl_playbutton" /></div>';
         $anchor_replacement .= '</div></div>';
     }
