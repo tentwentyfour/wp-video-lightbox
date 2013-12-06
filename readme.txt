@@ -82,7 +82,7 @@ Yes
 = Can this plugin be used to do lightbox on images? =
 Yes
 
-= Can this plugin automatically create a thumbnail/anchor image from the YouTube video?
+= Can this plugin automatically create a thumbnail/anchor image from the YouTube video? =
 Yes
 
 == Screenshots ==
