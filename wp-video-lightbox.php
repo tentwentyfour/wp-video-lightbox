@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP Video Lightbox
-Version: 1.6.2
+Version: 1.6.3
 Plugin URI: http://www.tipsandtricks-hq.com/?p=2700
 Author: Tips and Tricks HQ, Ruhul Amin
 Author URI: http://www.tipsandtricks-hq.com/
@@ -13,7 +13,7 @@ if (!class_exists('WP_Video_Lightbox'))
 {
     class WP_Video_Lightbox
     {
-        var $version = '1.6.2';
+        var $version = '1.6.3';
         var $db_version = '1.0';
         var $plugin_url;
         var $plugin_path;
@@ -42,7 +42,7 @@ if (!class_exists('WP_Video_Lightbox'))
 
         function includes() {
                 include_once('class-prettyphoto.php');
-                include_once('settings.php');
+                include_once('wpvl-settings.php');
                 include_once('misc_functions.php');
         }
 
