@@ -3,7 +3,7 @@ Contributors: Tips and Tricks HQ, Ruhul Amin, wptipsntricks
 Donate link: http://www.tipsandtricks-hq.com/
 Tags: wordpress lightbox, wordpress video lightbox, video lightbox, wp video lightbox, wordpress video embed, add video to wordpress, gallery, image, images, lightbox, lightview, overlay, photo, photos, picture, video
 Requires at least: 3.0
-Tested up to: 3.9
+Tested up to: 3.8
 Stable tag: 1.6.6
 License: GPLv2 or later
 
@@ -104,7 +104,6 @@ None
 == Changelog ==
 
 = 1.6.6 =
-* plugin is now compatible with WordPress 3.9
 * YouTube video can now be loaded over https
 
 = 1.6.5 =
