@@ -4,7 +4,7 @@ Donate link: http://www.tipsandtricks-hq.com/
 Tags: wordpress lightbox, wordpress video lightbox, video lightbox, wp video lightbox, wordpress video embed, add video to wordpress, gallery, image, images, lightbox, lightview, overlay, photo, photos, picture, video
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.6.8
+Stable tag: 1.6.9
 License: GPLv2 or later
 
 Very easy to use WordPress lightbox plugin to display YouTube and Vimeo videos in an elegant lightbox overlay.
@@ -64,7 +64,8 @@ Once you have installed the plugin you can configure some options to customize t
 * Automatically retrieve the thumbnail for your video and embed in lightbox
 * Load YouTube video over https. This is great if you have SSL installed on your site
 * Disable suggested videos at the end of a YouTube video
-* Flexiblity of using both shortcode/html code to pop up media in lightbox.
+* Flexiblity of using both shortcode/html code to pop up media in lightbox
+* Show description of a popup in overlay
 
 For video tutorial, screenshots, detailed documentation, support and updates, please visit: [WP Video Lightbox plugin page](http://www.tipsandtricks-hq.com/wordpress-video-lightbox-plugin-display-videos-in-a-fancy-lightbox-overlay-2700)
 
@@ -102,6 +103,9 @@ http://www.tipsandtricks-hq.com/wordpress-video-lightbox-plugin-display-videos-i
 None
 
 == Changelog ==
+
+= 1.6.9 =
+* Added a new shortcode parameter to show the description of a video popup in lightbox
 
 = 1.6.8 =
 * fixed an issue where vimeo video could not be played on a HTTPS site
