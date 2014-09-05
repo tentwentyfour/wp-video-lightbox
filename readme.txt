@@ -1,6 +1,6 @@
 === WP Video Lightbox ===
 Contributors: Tips and Tricks HQ, Ruhul Amin, wptipsntricks
-Donate link: http://www.tipsandtricks-hq.com/
+Donate link: https://www.tipsandtricks-hq.com/
 Tags: wordpress lightbox, wordpress video lightbox, video lightbox, wp video lightbox, wordpress video embed, add video to wordpress, gallery, image, images, lightbox, lightview, overlay, photo, photos, picture, video
 Requires at least: 3.0
 Tested up to: 4.0
@@ -67,13 +67,13 @@ Once you have installed the plugin you can configure some options to customize t
 * Flexiblity of using both shortcode/html code to pop up media in lightbox
 * Show description of a popup in overlay
 
-For video tutorial, screenshots, detailed documentation, support and updates, please visit: [WP Video Lightbox plugin page](http://www.tipsandtricks-hq.com/wordpress-video-lightbox-plugin-display-videos-in-a-fancy-lightbox-overlay-2700)
+For video tutorial, screenshots, detailed documentation, support and updates, please visit: [WP Video Lightbox plugin page](https://www.tipsandtricks-hq.com/wordpress-video-lightbox-plugin-display-videos-in-a-fancy-lightbox-overlay-2700)
 
 == Usage ==
 
 You need to embed the appropriate shortcode on a post/page to display the specific type of media (Youtube, Vimeo, Flash etc).
 Instructions for using the shortcodes are available at the following URL: 
-[WP Video Lightbox Details Usage Instruction](http://www.tipsandtricks-hq.com/wp-content/uploads/docs/WP-Video-Lightbox-Plugin-Usage-Guide.pdf)
+[WP Video Lightbox Details Usage Instruction](https://www.tipsandtricks-hq.com/wp-content/uploads/docs/WP-Video-Lightbox-Plugin-Usage-Guide.pdf)
 
 == Installation ==
 
@@ -96,7 +96,7 @@ Yes
 == Screenshots ==
 
 Please see this page for screenshots:
-http://www.tipsandtricks-hq.com/wordpress-video-lightbox-plugin-display-videos-in-a-fancy-lightbox-overlay-2700
+https://www.tipsandtricks-hq.com/wordpress-video-lightbox-plugin-display-videos-in-a-fancy-lightbox-overlay-2700
 
 == Upgrade Notice ==
 
