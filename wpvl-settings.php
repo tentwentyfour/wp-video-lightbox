@@ -40,14 +40,18 @@ class Video_Lightbox_Settings_Page
         $content .= '</h2>';
         echo $content;
 
-        switch ($_GET['action'])
+        if(isset($_GET['action']))
+        { 
+            switch ($_GET['action'])
+            {
+               case 'prettyPhoto':
+                   $this->prettyPhoto_settings_section();
+                   break;
+            }
+        }
+        else
         {
-           case 'prettyPhoto':
-               $this->prettyPhoto_settings_section();
-               break;
-           default:
-               $this->general_settings_section();
-               break;
+            $this->general_settings_section();
         }
 
         echo '</div></div>';
