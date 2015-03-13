@@ -1,10 +1,10 @@
 === WP Video Lightbox ===
 Contributors: Tips and Tricks HQ, Ruhul Amin, wptipsntricks
 Donate link: https://www.tipsandtricks-hq.com/
-Tags: wordpress lightbox, wordpress video lightbox, video lightbox, wp video lightbox, wordpress video embed, add video to wordpress, gallery, image, images, lightbox, lightview, overlay, photo, photos, picture, video
+Tags: wordpress lightbox, wordpress video lightbox, video lightbox, wp video lightbox, wordpress video embed, add video to wordpress, gallery, image, images, lightbox, lightview, overlay, photo, photos, picture, video 
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.7.1
+Stable tag: 1.7.2
 License: GPLv2 or later
 
 Very easy to use WordPress lightbox plugin to display YouTube and Vimeo videos in an elegant lightbox overlay.
@@ -103,6 +103,9 @@ https://www.tipsandtricks-hq.com/wordpress-video-lightbox-plugin-display-videos-
 None
 
 == Changelog ==
+
+= 1.7.2 =
+* plugin is now compatible with WordPress 4.1
 
 = 1.7.1 =
 * Fullscreen option is now available for YouTube and Vimeo videos
