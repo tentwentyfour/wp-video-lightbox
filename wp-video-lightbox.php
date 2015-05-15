@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP Video Lightbox
-Version: 1.7.3
+Version: 1.7.4
 Plugin URI: https://www.tipsandtricks-hq.com/?p=2700
 Author: Tips and Tricks HQ, Ruhul Amin
 Author URI: https://www.tipsandtricks-hq.com/
@@ -13,7 +13,7 @@ if (!class_exists('WP_Video_Lightbox'))
 {
     class WP_Video_Lightbox
     {
-        var $version = '1.7.3';
+        var $version = '1.7.4';
         var $db_version = '1.0';
         var $plugin_url;
         var $plugin_path;
@@ -49,6 +49,12 @@ if (!class_exists('WP_Video_Lightbox'))
         function loader_operations(){
                 register_activation_hook( __FILE__, array(&$this, 'activate_handler') );    //activation hook
                 add_action('plugins_loaded',array(&$this, 'plugins_loaded_handler'));   //plugins loaded hook
+                if (!is_admin())
+                {
+                    add_filter('widget_text', 'do_shortcode');
+                    add_filter('the_excerpt', 'do_shortcode',11);
+                    add_filter('the_content', 'do_shortcode',11);
+                }
         }
 
         function plugins_loaded_handler()  //Runs when plugins_loaded action gets fired
